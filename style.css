@@ -1,0 +1,98 @@
+/* Importing the 'Poppins' font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?*€');
+
+/* Resetting default styles and setting the global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for the header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Styling for the logo */
+header .logo {
+    font-size: 2em;
+    color: rgb(68, 60, 60);
+    cursor: default;
+}
+
+/* Styling for the span inside the logo */
+header .logo span {
+    color: orange;
+}
+
+/* Styling for navigation links */
+header .navigation a {
+    font-size: 1.1em;
+    color: rgb(68, 60, 60);
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Hover effect for navigation links */
+header .navigation a:hover {
+    color: orange;
+}
+
+/* Styling for the "pogi" button */
+.tombol-download {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: orange;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+/* Hover effect for the "Download Cv" button */
+.tombol-download:hover {
+    color: orange;
+    background: transparent;
+}
+
+/* Styling for the home section */
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('Home1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+/* Styling for the content within the home section */
+.home .content {
+    max-width: 500px;
+    color: rgb(68, 60, 60);
+}
+
+/* Styling for the h2 element within the content */
+.home .content h2 {
+    font-size: 3em;
+}
+ 
+body{
+ 
+background-image:url(bg.jpg);
+ 
+}
